@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1e720b3490.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png.jpg" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#Learnings">Learnings</a></li>
+                    <li><a href="#Portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>VENKATA RAJA</span><br>From Ongole</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/logo.png.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hii team. I am Koniki Venkata Raja. I have completed my graduation in the stream of Electronics and Communication engineering in may, 2023. As a part of my academics I have done two projects . Apart from my academics as a self learner I gained knowledge on  courses like Python, HTML, CSS,Java Script,Pandas,Numpy and Matplotlib. I am very confident,punctual about my work and passionate to learn new things.<br> 
+                        Thank you</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                               <li><span>UI/UX</span><br>Designing Web Applications</li>
+                               <li><span>Web development</span><br>Web applications development</li> 
+                               <li><span>Fronted technology</span></li>  
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                               <li><span>HTML5</span><br>1 year</li>
+                               <li><span>CSS3</span><br>1 year</li> 
+                               <li><span>JavaScript</span><br>8 months</li>  
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                               <li><span>B.TECH</span><br>Vignan's lara institute of technology and scinece-ECE<br>2019-2023</li>
+                               <li><span>INTERMEDIATE</span><br>Sri Saraswathi Jr.college<br>2017-2019</li> 
+                               <li><span>SSC</span><br>Ganga High School<br>2016-2017</li>  
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..............................HIGHLIGHTING THE SERVICES...........................?
+     -->
+     <div id="Learnings">
+        <div class="container">
+            <h1 class="sub-title">My Learnings</h1>
+            <div class="Learnings-list">
+               <div>
+                <h2><span>Python</span></h2>
+                <P>I have learned python from UDEMY platform which helps me building logical Skills</P>
+                <a href="#">Learn more</a>
+               </div>
+               <div>
+                <h2><span>Numpy</span></h2>
+                <P>I have learned Numpy in python.It is a library in python</P>
+                <a href="#">Learn more</a>
+               </div>
+               <div>
+                <h2><span>Pandas</span></h2>
+                <P>I have learned Pandas in python.It is a library in python</P>
+                <a href="#">Learn more</a>
+               </div>
+               <div>
+                <h2><span>Matplotlib</span></h2>
+                <P>I have learned Matplotlib in python.It is a library in python</P>
+                <a href="#">Learn more</a>
+               </div>
+        
+
+            </div>
+        </div>
+     </div>
+     <!-- ...............................PORTFOLIO.......................?
+     -->
+     <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="Work-list">
+                <div class="Work">
+                    <img src="images/work(1).png">
+                    <div class="layer">
+                        <h3><span>About Me</span></h3>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/work(2).png">
+                    <div class="layer">
+                        <h3><span>About My Family</span></h3>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/work(3).png">
+                    <div class="layer">
+                        <h3><span>About My achievements</span></h3>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/work(4).png">
+                    <div class="layer">
+                        <h3><span>About My Interests</span></h3>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/work(5).png">
+                    <div class="layer">
+                        <h3><span>About My Inspiration</span></h3>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/work(6).png">
+                    <div class="layer">
+                        <h3><span>About My References</span></h3>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/work(7).png">
+                    <div class="layer">
+                        <h3><span>Sample Website</span></h3>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/work(8).png">
+                    <div class="layer">
+                        <h3><span>Login Page</span></h3>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/work(9).png">
+                    <div class="layer">
+                        <h3><span>Register Page</span></h3>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/work(10).png">
+                    <div class="layer">
+                        <h3><span>Registration Form</span></h3>
+                    </div>
+                </div>
+                <div class="Work">
+                    <img src="images/work(11).png">
+                    <div class="layer">
+                        <h3><span>Thank you</span></h3>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+     <!-- ....................................CONTACT DETAILS............? -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/KONIKI VENKATA RAJA (resume).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright<i class="fa-regular fa-copyright"></i><span>Venkata Raja</span> portfolio</p>
+        </div>
+     </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxm-joa6dUVp9Whtj0ZQCt36y5hs2sIcTClDjj2WXPmdnr8S-Fbo2np--1UsCdk4SKm/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
